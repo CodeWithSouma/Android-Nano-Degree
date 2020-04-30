@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Google Company</string>
+    <string name="about_google">Google is a multinational, publicly-traded organization built around the company\'s hugely popular search engine. Google\'s other enterprises include Internet analytics, cloud computing, advertising technologies, and Web app, browser and operating system development.
+        \n\n   Google\'s roots go back to 1995 when two graduate students, Sergey Brin and Larry Page, met at Stanford University. In 1996, Brin and Page collaborated on a research project that was to eventually become the Google search engine. BackRub, as it was called then (because of its analysis of back links),
+        stirred up interest in the university research community, but didn\'t garner any offers from the major portal vendors. Those were early days in terms of mass searching of the Internet; one of the CEOs who turned them away said that users don\'t really care about search abilities. Undaunted, the founders scrounged up enough funding to get started, and in September of 1998 began operations from a garage-based office in Menlo Park, California.
+        In December of that same year, PC Magazine listed Google as one of its Top 100 Web Sites and Search Engines for 1998.
+        \n\n  Google was chosen for its resemblance to the word googol -- a number consisting of a numeral one followed by a hundred zeroes -- as a reference to the vast amount of information in the world.
+        Google\'s self-stated mission: \"to organize the world\'s information and make it universally accessible and useful.\"
+        \n\n  In the first few years of operation, Google\'s search engine competition included AltaVista, Yahoo, Excite and Lycos.
+        Within a few years, however, Google became so dominant that the name has become a verb meaning to conduct a Web search;
+        people are as likely to say they \"Googled\" some information as to say they searched for it.</string>
+    <string name="heading">Google (the company)</string>
+
+</resources>
