@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Quiz Time</string>
+    <!---Start the question set-->
+
+    <!---Question set one-->
+    <string name="Question1">1. What is the name of this person?</string>
+    <string name="RadioButtonQuestionOneOptionOne">Pete Lau</string>
+    <string name="RadioButtonQuestionOneOptionTwo">Sundar Pichai</string>
+    <string name="RadioButtonQuestionOneOptionThree">Arvind Krishna</string>
+
+    <!---Question set two-->
+    <string name="Question2">2. Where was mark zuckerberg born?</string>
+    <string name="RadioButtonQuestionTwoOptionOne">New York</string>
+    <string name="RadioButtonQuestionTwoOptionTwo">California</string>
+    <string name="RadioButtonQuestionTwoOptionThree">Chicago</string>
+
+    <!---Question set three-->
+    <string name="Question3">3. How old was he when he started programming?</string>
+    <string name="RadioButtonQuestionThreeOptionOne">10 years old</string>
+    <string name="RadioButtonQuestionThreeOptionTwo">12 years old</string>
+    <string name="RadioButtonQuestionThreeOptionThree">21 years old</string>
+
+    <!---Question set four-->
+    <string name="Question4">4. What year did Steve Jobs unveil the iPhone?</string>
+    <string name="RadioButtonQuestionFourOptionOne">2005</string>
+    <string name="RadioButtonQuestionFourOptionTwo">2006</string>
+    <string name="RadioButtonQuestionFourOptionThree">2007</string>
+
+    <!---Question set five-->
+    <string name="Question5">5. Dennis Ritchie Was Creator of ________ Programming Language ?</string>
+
+    <!---Question set six-->
+    <string name="Question6">6. James Gosling invented ________ Programming Language ?</string>
+
+    <!---Question set seven-->
+    <string name="Question7">7. Manu Kumar Jain is the Managing Director of?</string>
+    <string name="RadioButtonQuestionSevenOptionOne">Xiaomi</string>
+    <string name="RadioButtonQuestionSevenOptionTwo">Vivo</string>
+    <string name="RadioButtonQuestionSevenOptionThree">Realme</string>
+
+    <!---Question set eight-->
+    <string name="Question8">8. Jeff Bezos is best known as the ________ , _______ and ________ of the company Amazon?</string>
+    <string name="CheckBoxQuestionEightOptionOne">founder</string>
+    <string name="CheckBoxQuestionEightOptionTwo">CEO</string>
+    <string name="CheckBoxQuestionEightOptionThree">president</string>
+    <string name="CheckBoxQuestionEightOptionFour">project manager</string>
+
+    <!---Question set nine-->
+    <string name="Question9">9. Kevin Ashton is best known as the inventor of ________?</string>
+    <string name="RadioButtonQuestionNineOptionOne">AI</string>
+    <string name="RadioButtonQuestionNineOptionTwo">IOT</string>
+    <string name="RadioButtonQuestionNineOptionThree">ML</string>
+
+    <!---Question set ten-->
+    <string name="Question10">10. John McCarthy is one of the "founding fathers" of ________ ?</string>
+    <string name="RadioButtonQuestionTenOptionOne">AI</string>
+    <string name="RadioButtonQuestionTenOptionTwo">IOT</string>
+    <string name="RadioButtonQuestionTenOptionThree">ML</string>
+
+
+    <string name="Typehere">Type Here</string>
+    <string name="ButtonSubmit">Submit</string>
+    <string name="ButtonReset">Reset</string>
+
+</resources>
