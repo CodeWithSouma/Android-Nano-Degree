@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="song_details">Song Details</string>
+    <string name="song_library">Song Library</string>
+
+    <string name="biography_body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris vitae nibh pellentesque malesuada. Sed a cursus odio, vel condimentum nibh. Ut et libero sed enim convallis auctor vel ut mi. Curabitur placerat pharetra eros ut dignissim. Quisque lobortis in ex a lacinia. Etiam in nulla vitae augue eleifend facilisis commodo nec nibh. Aliquam eu augue efficitur, tempus est id, venenatis risus. Sed pretium pretium est, et eleifend turpis egestas at. Donec eros nulla, feugiat quis eleifend vel, hendrerit eget magna. Morbi elementum ex at dapibus tempus. Integer ornare, metus vel tristique aliquam, quam tortor scelerisque ligula, vel sodales purus turpis in diam. Cras consectetur, felis vel bibendum congue, augue ante lobortis nulla, vitae ornare sem justo vitae metus. Fusce lobortis scelerisque nisi a rutrum. Nam dignissim auctor accumsan. Nunc quis elementum nisi.
+
+Ut sollicitudin orci eu dapibus ornare. Cras a eros feugiat, gravida lacus a, pellentesque est. Aenean elementum enim vel sollicitudin dignissim. Aenean viverra semper tincidunt. Vestibulum nec porttitor elit, vel finibus nisi. Suspendisse potenti. Proin porta venenatis consectetur. Pellentesque vulputate, nisi et sagittis bibendum, sem eros ullamcorper nisl, et blandit tellus arcu eget urna. Donec dapibus ut nibh quis blandit. Ut vestibulum, tortor sed aliquet efficitur, magna enim pretium ante, sit amet auctor neque lectus molestie metus. Cras varius ex ut felis ultrices, sed vestibulum mi faucibus. Quisque mollis, mauris ut tempus convallis, massa odio blandit lectus, sit amet maximus diam leo id enim. Duis ac velit aliquet, ornare tortor eu, lacinia sapien. Pellentesque congue sem diam, nec elementum turpis rutrum at. Cras eu lorem tempor, ullamcorper lorem eget, malesuada metus.
+
+Cras vel arcu id felis lobortis laoreet. Aenean vel tristique nulla, sed aliquet ex. Nulla semper massa quis fringilla ornare. Maecenas tincidunt magna vel ante efficitur congue. Suspendisse potenti. Sed suscipit, neque eu imperdiet egestas, eros ante iaculis elit, ac eleifend purus nisi vel turpis. Nam tellus nisl, pretium quis pharetra nec, maximus a nibh.
+
+Nunc porta nunc in cursus vehicula. Etiam faucibus ante in urna tempus porta. Nam volutpat dui et arcu lacinia, vel convallis lectus semper. Aliquam id eros orci. Nunc congue in metus in gravida. Nullam eu lorem ac neque gravida rutrum quis non turpis. Etiam nec velit pellentesque, varius ante eget, mattis eros. Aliquam erat volutpat. Nunc eu sodales sem.
+
+Donec non congue nibh, ut dapibus lorem. Donec vel convallis sapien. Vestibulum placerat eros eget ultricies lobortis. Maecenas at purus id lorem euismod fringilla. Duis facilisis luctus diam lobortis rutrum. Vivamus at dictum nulla, sed rutrum massa. Nunc hendrerit egestas sodales. Vivamus vel ex ante. Aenean egestas orci eget pellentesque blandit. Etiam condimentum maximus nulla, condimentum blandit nibh rutrum ac. Proin dapibus felis non enim facilisis, et gravida magna pulvinar. Pellentesque ut magna eu risus consequat porta ac nec leo. Maecenas vel sapien ut magna accumsan accumsan eget id est. In ac vehicula libero.
+
+</string>
+    <string name="song_title_here">Song Title Here...</string>
+    <string name="album_title_here">Album title Here...</string>
+    <string name="_0_00">0:00</string>
+    <string name="forward_slash">/</string>
+    <string name="_3_00">3:00</string>
+    <string name="backward">Backward</string>
+    <string name="play">Play</string>
+    <string name="forward">Forward</string>
+    <string name="biography">Biography</string>
+    <string name="count">Count:</string>
+    <string name="_1_000">1,000</string>
+    <string name="_1_example">1. Example</string>
+    <string name="_2_example">2. Example</string>
+    <string name="_3_example">3. Example</string>
+    <string name="ellipsis">...</string>
+</resources>
