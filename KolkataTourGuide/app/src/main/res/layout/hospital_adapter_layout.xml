@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_margin="10dp"
+    android:padding="8dp"
+    android:background="@color/colorTextIcon"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/hospital_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/fortis_hospital"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/hospital_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Fortis Hospital "
+        android:textColor="@color/colorPrimaryText"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hospital_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/colorSecondaryText"
+        android:text="Plot No 730, E M Bypass,
+                    \nEast Kolkata Township,
+                    \nKolkata - 700107,
+                    \nNear Anandapur"
+        android:textStyle="normal"/>
+
+</LinearLayout>

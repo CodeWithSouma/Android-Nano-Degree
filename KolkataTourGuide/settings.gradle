@@ -1,0 +1,2 @@
+rootProject.name='Kolkata Tour Guide'
+include ':app'

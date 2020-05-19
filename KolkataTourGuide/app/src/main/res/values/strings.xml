@@ -1,0 +1,305 @@
+<resources>
+    <string name="app_name">Kolkata Tour Guide</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Name of the places -->
+    <string-array name="name_of_the_place">
+        <item>Victoria Memorial</item>
+        <item>Howrah Bridge</item>
+        <item>Belur Math</item>
+        <item>Eden Gardens</item>
+        <item>Dakshineswar Kali Temple</item>
+    </string-array>
+
+    <!-- TODO: Address of the places -->
+    <string-array name="address_of_the_place">
+        <item> Kolkata, West Bengal, India</item>
+        <item>Howrah, Kolkata, West Bengal, India</item>
+        <item>Belur, Kolkata, West Bengal, India</item>
+        <item>Maidan, B.B.D. Bagh, Kolkata, West Bengal 700021</item>
+        <item>Dakshineswar, Kolkata, West Bengal 700076</item>
+    </string-array>
+
+    <!-- TODO:Description of the places -->
+    <string-array name="description_of_the_palce">
+        <item>
+            The Victoria Memorial is a large marble building,which is considered to be the pride of Kolkata.
+            Built between 1906 and 1921, it is dedicated to the memory of Queen Victoria.
+            Now, it is a museum and a popular tourist spot under the Ministry of Culture.
+        </item>
+        <item>
+            Located over the Hooghly river in West Bengal,
+            Howrah Bridge or the Rabindra Setu is the main connection between Howrah and Kolkata.
+            It is a cantilever bridge and is regarded as one of the busiest ones among them.
+        </item>
+        <item>
+            Belur Mutt is the headquarters of the Ramakrishna Math and Mission, founded by Swami Vivekananda,
+            the chief disciple of Ramakrishna Paramahamsa. It is situated on the west bank of Hooghly River,
+            Belur, West Bengal, India. It is one of the noteworthy establishments in Kolkata.
+            This temple is the focus of the Ramakrishna Movement. The temple is prominent for its architecture that embraces Hindu,
+            Christian and Islamic styles and stands as an icon of unity of all religions.
+        </item>
+        <item>
+            The Eden Gardens is a Cricket and Football multipurpose ground in Kolkata, India.
+            It was established in 1864. It is the oldest cricket stadium in India.
+            It will be the home ground of Eastbengal FC in ISL season 7 2020-21.
+        </item>
+        <item>
+            Dakshineswar Kali Temple is a Hindu navaratna temple located at Dakshineswar.
+            Situated on the eastern bank of the Hooghly River,
+            the presiding deity of the temple is Bhavatarini, an aspect of Kali.
+        </item>
+
+
+    </string-array>
+
+
+    <!-- TODO: Name of the hotel -->
+    <string-array name="name_of_the_hotel">
+        <item>The Westin Kolkata Rajarhat</item>
+        <item>Pride Plaza Hotel Kolkata</item>
+        <item>The Lalit Great Eastern Kolkata</item>
+        <item>JW Marriott Hotel Kolkata</item>
+        <item>Hyatt Regency Kolkata</item>
+    </string-array>
+
+    <!-- TODO: Address of the hotel -->
+    <string-array name="address_of_the_hotel">
+
+        <item>
+            Plot No CBD 2, Action Area - II,New Town,
+            \nRajarhat, Kolkata 700156 India
+            \nPhone: 033 4037 1234
+        </item>
+        <item>
+            Terminus, B.G-12,1-B, New Town,
+            \nRajarhat, Kolkata 700 156 India
+            \nPhone: 033 45037 1254
+        </item>
+        <item>
+            1 2 &amp; 3 Old Court House Street,
+            \nKolkata 700069 India
+            \nPhone: 011 4444 7474
+        </item>
+        <item>
+            4A J.B.S Haldane Avenue,
+            \nKolkata 700105 India
+            \nPhone: 033 6633 0000
+        </item>
+        <item>
+            JA - 1 Sector III Salt Lake City,
+            \nKolkata 700098 India
+            \nPhone: 033 6820 1234
+        </item>
+
+    </string-array>
+
+    <!-- TODO:Description of the hotel -->
+    <string-array name="description_of_the_hotel">
+        <item>
+            Experience a relaxing getaway situated 8 Kms from the Kolkata Airport,
+            The Westin Kolkata Rajarhat is in close proximity to the International Convention Centre,
+            Eco Park and the Business hub of Salt Lake &amp; Rajarhat. With the stunning Kolkata cityscape in the background,
+            guests checking in to the hotel have a choice to be pampered with an invigorating massage at the Heavenly Spa by Westin,
+            indulge in Westin WORKOUT facilities or simply take a refreshing dip in the outdoor pool in this calming oasis. The hotel showcases 304
+        </item>
+        <item>
+            Finding an ideal family-friendly hotel in Kolkata (Calcutta) does not have to be difficult.
+            Welcome to Pride Plaza Hotel Kolkata, a nice option for travellers like you.
+            Youu will enjoy relaxing rooms that offer a flat screen TV, a minibar, and air conditioning,
+            and you can stay connected during your stay as Pride Plaza Hotel Kolkata offers guests free internet access.
+            The hotel features a concierge, room service, and 24 hour check-in. Plus, Pride Plaza Hotel Kolkata.
+        </item>
+        <item>
+            Asia\'s first luxury hotel, The Lalit Great Eastern is a heritage landmark located in the main business and shopping district of Kolkata.
+            Restored and renovated over a period of seven years, the hotel holds the distinction of being the longest continuously operating hotel for 165 years.
+            Built in 1841 as Auckland Hotel, it has been referred to as the \'Jewel of the East\' and the \'Best Hotel East of the Suez\'.
+            Over the years, the hotel has been the favourite haunt of royalty and celebrities from across the world.
+        </item>
+        <item>
+            Welcome to JW Marriott Kolkata - a landmark of luxury in the east of India and a top choice among 5-star hotels in Kolkata.
+            Towering over JBS Haldane Avenue just 6km from Netaji Subhash Chandra Bose Airport, our hotel is equidistant from the airport
+            and the old central business district. JW Marriott Kolkata boasts 281 spacious rooms with state-of-the-art facilities.
+            We are a premier choice among hotels in Kolkata due to our passion for personal service and our exemplary dining options.
+            At JW Marriott Kolkata, guests enjoy a convenient location, impeccable restaurants, luxurious rooms and suites,
+            and large event spaces that are suitable for corporate events, weddings, and other functions. Our hotel also provides a beautiful infinity pool,
+            a fitness club, and a holistic Spa by JW.
+        </item>
+
+        <item>
+            Hyatt Regency Kolkata is a luxury business hotel in Kolkata (or “Calcutta”), India.
+            The hotel creates the feel of a private cocoon away from the complexities of modern living without giving up any of its luxuries.
+            Hyatt Regency Kolkata is located next to Salt Lake Stadium &amp; 15 mins drive from IT hub and is a preferred business destination of East India.
+            A tranquil retreat amid spectacular landscaped gardens, featuring 234 luxury guest rooms and suites,
+            the hotel allows guests to relax and rejuvenate while staying in Kolkata.
+        </item>
+
+    </string-array>
+
+    <!-- TODO: Name of the hospital -->
+    <string-array name="name_of_the_hospital">
+        <item>Fortis Hospital</item>
+        <item>Medica Superspecialty Hospital</item>
+        <item>Columbia Asia Hospital</item>
+        <item>Bhagirathi Neotia Woman &amp; Child Care Centre</item>
+        <item>Sri Aurobindo Seva Kendra</item>
+    </string-array>
+
+    <!-- TODO: Address of the hospital -->
+    <string-array name="address_of_the_hospital">
+
+        <item>
+            Plot No 730, E M Bypass,
+            \nEast Kolkata Township,
+            \nKolkata - 700107,
+            \nNear Anandapur
+        </item>
+        <item>
+            No 127, E.M Bypass, Mukundapur,
+            \nKolkata - 700099,
+            \nNear Cash and Carry,
+            \nE M Bypass (Map)Hospitals
+        </item>
+        <item>
+            IB 193, Salt Lake City Sector 5,
+            \nKolkata - 700091,
+            \nNear Saltlake Stadium (Map)Hospitals
+        </item>
+        <item>
+            No 2, Rawdon Street, Circus Avenue, Kolkata - 700017,
+            \nOpposite Assembly Of God Church School,
+             \nMullick Bazar,
+             \nPark Street (Map)Hospitals
+        </item>
+        <item>
+            1 H, Gariahat Road South,
+            \nJodhpur Park, Kolkata - 700068,
+            \nNear Jadavpur Police Station (Map)
+        </item>
+
+    </string-array>
+
+    <!-- TODO:Description of the hospital -->
+    <string-array name="description_of_the_hospital">
+        <item>
+            Neurologists
+            \nGynaecologist &amp; Obstetrician Doctors
+            \nGastroenterologists
+            \nOrthopaedic Doctors
+            \nCardiologists
+            \nPulmonologists Doctors
+            \nNephrologists
+        </item>
+        <item>
+            Neurologists
+            \nGastroenterologists
+            \nOrthopaedic Doctors
+            \nCardiologists
+            \nUrologist Doctors
+        </item>
+        <item>
+            Gynaecologist &amp; Obstetrician Doctors
+            \nDermatologists
+            \nDiagnostic Centres
+            \nGeneral Physician Doctors
+        </item>
+        <item>
+            Neurologists
+            \nGynaecologist &amp; Obstetrician Doctors
+            \nGastroenterologists
+            \nPaediatricians
+            \nDermatologists
+        </item>
+
+        <item>
+            Neurologists
+            \nGynaecologist &amp; Obstetrician Doctors
+            \nGastroenterologists
+            \nPaediatricians
+            \nDermatologists
+        </item>
+
+    </string-array>
+
+    <!-- TODO: Name of the shoping malls -->
+    <string-array name="name_of_the_mall">
+        <item>Quest Mall</item>
+        <item> South City Mall</item>
+        <item>City Center</item>
+        <item>Mani Square</item>
+        <item>Acropolis Mall</item>
+    </string-array>
+
+    <!-- TODO: Address of the shoping mall -->
+    <string-array name="address_of_the_mall">
+
+        <item>
+            Location: Syed Amir Ali Ave
+            \nTimings: 10 AM to 11 PM
+        </item>
+        <item>
+            Location: Prince Anwar Shah Road
+            \nTimings: 10 AM to 10 PM
+        </item>
+        <item>
+            Location: Newtown
+            \nTimings: 10 AM to 10 PM
+        </item>
+        <item>
+            Location: Maniktala Main Road
+            \nTimings: 10 AM to 10 PM
+        </item>
+        <item>
+            Location: Rajdanga Main Rd
+            \nTimings: 10 AM to 9 PM
+        </item>
+
+    </string-array>
+
+    <!-- TODO:Description of the shoping mall -->
+    <string-array name="description_of_the_mall">
+        <item>
+            The number of luxury stores such as Gucci, Armani, Burberry,
+            \nRolex and many others is a big attraction for shoppers of this mall.
+             \nOther than this, there are various other clothing stores
+            \nas well where you can shop at a much affordable price.
+        </item>
+        <item>
+            At South City Mall, you can find almost all the famous regular brands
+            \nwhich include Guess, Jack and Jones, Lacoste, Vero Moda, and many more.
+             \nStores like Shoppers Stop and Pantaloons can be seen in this mall
+             \nwhere you can find the number of brands. Timezone, a gaming zone
+            \nfor hours of entertainment can also be spotted here for unlimited fun.
+
+        </item>
+        <item>
+            This is one of the most famous malls in Kolkata where shoppers of all ages
+            \nwould love to spend a number of hours. This is a huge mall divided into different
+            \nsections which include, a shopping plaza, an entertainment zone,
+            \nfood court, cineplex, and different other 240 stores.
+
+        </item>
+        <item>
+            Another fine destination for shoppers, Mani Square offers almost everything
+            \nyou want to see while exploring a market. Whether it is about clothing,
+             \ngaming or eateries, the place has it all for the visitors.
+             \nFamous brands like Adidas, Levi’s, Raymond’s, Tissot, and much more,
+             \nattracts the attention of many visitors throughout the day.
+        </item>
+
+        <item>
+            If you are in this city and want to explore different malls in Kolkata,
+            \nthen Acropolis Mall should be on your list of must-visit malls.
+            \nThe luxurious ambiance of the mall raised many eyebrows of first-time visitors.
+            \nThis mall has 5 floors where you can find all the popular brands to fill the shopping bags.
+             \nThe large food court and fine ding is another popular area you will see while taking a break from shopping.
+        </item>
+
+    </string-array>
+
+
+</resources>
