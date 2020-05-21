@@ -8,8 +8,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 
 /**
@@ -29,18 +32,26 @@ public class Places extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+
+      // this is my new code
         container = (ViewGroup) inflater.inflate(R.layout.fragment_places, container, false);
 
         final String[] nameOfThePlace = getResources().getStringArray(R.array.name_of_the_place);
         String[] addressOfThePlace = getResources().getStringArray(R.array.address_of_the_place);
         int [] images = {R.drawable.victoria,R.drawable.hawrah,R.drawable.balur,R.drawable.eden,R.drawable.dakhinaswar};
+        ArrayList<LocationDetails> placesDetails = new ArrayList<LocationDetails>();
+
+
+        for (int i=0;i<nameOfThePlace.length;i++)
+            placesDetails.add(new LocationDetails(nameOfThePlace[i],addressOfThePlace[i],images[i]));
 
 
 
+        LocationDetailsAdapter adapter = new LocationDetailsAdapter(getActivity(),R.layout.location_details_adapter_layout,placesDetails);
         ListView placesListView = container.findViewById(R.id.places_list_view);
-        PlacesAdapter adapter = new PlacesAdapter(getActivity(),nameOfThePlace,addressOfThePlace,images);
         placesListView.setAdapter(adapter);
 
+        //listener
         placesListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -48,10 +59,7 @@ public class Places extends Fragment {
             }
         });
 
-
-        // Inflate the layout for this fragment
         return container;
-
     }
 
 

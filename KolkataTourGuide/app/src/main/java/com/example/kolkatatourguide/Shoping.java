@@ -11,6 +11,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -25,18 +27,25 @@ public class Shoping extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+
+   // this is my new code
         container = (ViewGroup) inflater.inflate(R.layout.fragment_shoping, container, false);
 
         final String[] nameOfTheMall = getResources().getStringArray(R.array.name_of_the_mall);
         String[] addressOfTheMall = getResources().getStringArray(R.array.description_of_the_mall);
         int [] images = {R.drawable.quest_mall,R.drawable.south_city_mall,R.drawable.city_center,R.drawable.mani_square_mall,R.drawable.acropolis_mall};
 
-
+        ArrayList<LocationDetails>shopingMall = new ArrayList<LocationDetails>();
+        for (int i =0; i<nameOfTheMall.length; i++)
+            shopingMall.add(new LocationDetails(nameOfTheMall[i],addressOfTheMall[i],images[i]));
 
         ListView shopListView = container.findViewById(R.id.shop_list_view);
-        ShopAdapter adapter = new ShopAdapter(getActivity(),nameOfTheMall,addressOfTheMall,images);
+        LocationDetailsAdapter adapter = new LocationDetailsAdapter(getActivity(),R.layout.location_details_adapter_layout,shopingMall);
         shopListView.setAdapter(adapter);
 
+        //listener
         shopListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -44,7 +53,6 @@ public class Shoping extends Fragment {
             }
         });
 
-        // Inflate the layout for this fragment
         return container;
     }
 }

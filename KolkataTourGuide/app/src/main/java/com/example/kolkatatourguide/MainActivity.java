@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
     class MyPageAdapter extends FragmentPagerAdapter {
 
-        String [] text = {"Places","Hotels","Shoping","Hospital"};
+//        String [] text = {"Places","Hotels","Shoping","Hospital"};
+        String[] text = getResources().getStringArray(R.array.fragment_heading);
 
         public MyPageAdapter(@NonNull FragmentManager fm) {
             super(fm);
